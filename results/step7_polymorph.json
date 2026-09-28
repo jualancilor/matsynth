@@ -1,0 +1,319 @@
+{
+  "min_z_diff_threshold": 0.001,
+  "n_pairs": 16,
+  "n_distinguished": 15,
+  "pairs": [
+    {
+      "formula": "TiO2",
+      "entry_a": {
+        "id": "mp-34688",
+        "spacegroup": 15,
+        "n_atoms": 6
+      },
+      "entry_b": {
+        "id": "mp-390",
+        "spacegroup": 141,
+        "n_atoms": 6
+      },
+      "magpie_max_abs_diff": 0.0,
+      "mace_z_max_abs_diff": 0.012018676839842223,
+      "mace_z_l2": 0.04527851275330113,
+      "mace_z_l2_relative": 0.04376661450792104,
+      "mace_cosine_similarity": 0.9992308820628342,
+      "mace_distinguishes": true
+    },
+    {
+      "formula": "TiO2",
+      "entry_a": {
+        "id": "mp-34688",
+        "spacegroup": 15,
+        "n_atoms": 6
+      },
+      "entry_b": {
+        "id": "mp-553432",
+        "spacegroup": 152,
+        "n_atoms": 9
+      },
+      "magpie_max_abs_diff": 0.0,
+      "mace_z_max_abs_diff": 0.08572389391954066,
+      "mace_z_l2": 0.3781213936236648,
+      "mace_z_l2_relative": 0.3891584864111646,
+      "mace_cosine_similarity": 0.9299892764487224,
+      "mace_distinguishes": true
+    },
+    {
+      "formula": "TiO2",
+      "entry_a": {
+        "id": "mp-34688",
+        "spacegroup": 15,
+        "n_atoms": 6
+      },
+      "entry_b": {
+        "id": "mp-1426806",
+        "spacegroup": 166,
+        "n_atoms": 3
+      },
+      "magpie_max_abs_diff": 0.0,
+      "mace_z_max_abs_diff": 0.077023249826439,
+      "mace_z_l2": 0.27893384253243814,
+      "mace_z_l2_relative": 0.28522654460527425,
+      "mace_cosine_similarity": 0.9637737927657023,
+      "mace_distinguishes": true
+    },
+    {
+      "formula": "TiO2",
+      "entry_a": {
+        "id": "mp-34688",
+        "spacegroup": 15,
+        "n_atoms": 6
+      },
+      "entry_b": {
+        "id": "mp-1079207",
+        "spacegroup": 189,
+        "n_atoms": 9
+      },
+      "magpie_max_abs_diff": 0.0,
+      "mace_z_max_abs_diff": 0.19391092161401524,
+      "mace_z_l2": 0.6907478597188765,
+      "mace_z_l2_relative": 0.5627797255202444,
+      "mace_cosine_similarity": 0.8933761456666846,
+      "mace_distinguishes": true
+    },
+    {
+      "formula": "TiO2",
+      "entry_a": {
+        "id": "mp-34688",
+        "spacegroup": 15,
+        "n_atoms": 6
+      },
+      "entry_b": {
+        "id": "mp-1008677",
+        "spacegroup": 225,
+        "n_atoms": 3
+      },
+      "magpie_max_abs_diff": 0.0,
+      "mace_z_max_abs_diff": 0.11505272853220204,
+      "mace_z_l2": 0.4210303254976681,
+      "mace_z_l2_relative": 0.38640874541471937,
+      "mace_cosine_similarity": 0.9322422731574097,
+      "mace_distinguishes": true
+    },
+    {
+      "formula": "TiO2",
+      "entry_a": {
+        "id": "mp-390",
+        "spacegroup": 141,
+        "n_atoms": 6
+      },
+      "entry_b": {
+        "id": "mp-553432",
+        "spacegroup": 152,
+        "n_atoms": 9
+      },
+      "magpie_max_abs_diff": 0.0,
+      "mace_z_max_abs_diff": 0.08181978638545212,
+      "mace_z_l2": 0.36197688418958046,
+      "mace_z_l2_relative": 0.36872910797082203,
+      "mace_cosine_similarity": 0.9399853365286146,
+      "mace_distinguishes": true
+    },
+    {
+      "formula": "TiO2",
+      "entry_a": {
+        "id": "mp-390",
+        "spacegroup": 141,
+        "n_atoms": 6
+      },
+      "entry_b": {
+        "id": "mp-1426806",
+        "spacegroup": 166,
+        "n_atoms": 3
+      },
+      "magpie_max_abs_diff": 0.0,
+      "mace_z_max_abs_diff": 0.07802036416596166,
+      "mace_z_l2": 0.29997726218557824,
+      "mace_z_l2_relative": 0.30362465600599425,
+      "mace_cosine_similarity": 0.9603412685243679,
+      "mace_distinguishes": true
+    },
+    {
+      "formula": "TiO2",
+      "entry_a": {
+        "id": "mp-390",
+        "spacegroup": 141,
+        "n_atoms": 6
+      },
+      "entry_b": {
+        "id": "mp-1079207",
+        "spacegroup": 189,
+        "n_atoms": 9
+      },
+      "magpie_max_abs_diff": 0.0,
+      "mace_z_max_abs_diff": 0.19781502914810378,
+      "mace_z_l2": 0.7056030507124277,
+      "mace_z_l2_relative": 0.5702141834082712,
+      "mace_cosine_similarity": 0.883162279031488,
+      "mace_distinguishes": true
+    },
+    {
+      "formula": "TiO2",
+      "entry_a": {
+        "id": "mp-390",
+        "spacegroup": 141,
+        "n_atoms": 6
+      },
+      "entry_b": {
+        "id": "mp-1008677",
+        "spacegroup": 225,
+        "n_atoms": 3
+      },
+      "magpie_max_abs_diff": 0.0,
+      "mace_z_max_abs_diff": 0.12707140537204425,
+      "mace_z_l2": 0.4495475400700547,
+      "mace_z_l2_relative": 0.40881054398158173,
+      "mace_cosine_similarity": 0.921252583501025,
+      "mace_distinguishes": true
+    },
+    {
+      "formula": "TiO2",
+      "entry_a": {
+        "id": "mp-553432",
+        "spacegroup": 152,
+        "n_atoms": 9
+      },
+      "entry_b": {
+        "id": "mp-1426806",
+        "spacegroup": 166,
+        "n_atoms": 3
+      },
+      "magpie_max_abs_diff": 0.0,
+      "mace_z_max_abs_diff": 0.12075239096305584,
+      "mace_z_l2": 0.46555813231876214,
+      "mace_z_l2_relative": 0.5032619258474474,
+      "mace_cosine_similarity": 0.8734505868681697,
+      "mace_distinguishes": true
+    },
+    {
+      "formula": "TiO2",
+      "entry_a": {
+        "id": "mp-553432",
+        "spacegroup": 152,
+        "n_atoms": 9
+      },
+      "entry_b": {
+        "id": "mp-1079207",
+        "spacegroup": 189,
+        "n_atoms": 9
+      },
+      "magpie_max_abs_diff": 0.0,
+      "mace_z_max_abs_diff": 0.2796348155335559,
+      "mace_z_l2": 0.9984065302930564,
+      "mace_z_l2_relative": 0.8500483411697517,
+      "mace_cosine_similarity": 0.720271577038968,
+      "mace_distinguishes": true
+    },
+    {
+      "formula": "TiO2",
+      "entry_a": {
+        "id": "mp-553432",
+        "spacegroup": 152,
+        "n_atoms": 9
+      },
+      "entry_b": {
+        "id": "mp-1008677",
+        "spacegroup": 225,
+        "n_atoms": 3
+      },
+      "magpie_max_abs_diff": 0.0,
+      "mace_z_max_abs_diff": 0.19863122127112634,
+      "mace_z_l2": 0.749119009218036,
+      "mace_z_l2_relative": 0.7225705906189159,
+      "mace_cosine_similarity": 0.7617530611559361,
+      "mace_distinguishes": true
+    },
+    {
+      "formula": "TiO2",
+      "entry_a": {
+        "id": "mp-1426806",
+        "spacegroup": 166,
+        "n_atoms": 3
+      },
+      "entry_b": {
+        "id": "mp-1079207",
+        "spacegroup": 189,
+        "n_atoms": 9
+      },
+      "magpie_max_abs_diff": 0.0,
+      "mace_z_max_abs_diff": 0.19579430221950214,
+      "mace_z_l2": 0.6864100564376757,
+      "mace_z_l2_relative": 0.5812953313883096,
+      "mace_cosine_similarity": 0.9165766862097531,
+      "mace_distinguishes": true
+    },
+    {
+      "formula": "TiO2",
+      "entry_a": {
+        "id": "mp-1426806",
+        "spacegroup": 166,
+        "n_atoms": 3
+      },
+      "entry_b": {
+        "id": "mp-1008677",
+        "spacegroup": 225,
+        "n_atoms": 3
+      },
+      "magpie_max_abs_diff": 0.0,
+      "mace_z_max_abs_diff": 0.11065005311234022,
+      "mace_z_l2": 0.4705574510695484,
+      "mace_z_l2_relative": 0.45113996252976035,
+      "mace_cosine_similarity": 0.9202429312852932,
+      "mace_distinguishes": true
+    },
+    {
+      "formula": "TiO2",
+      "entry_a": {
+        "id": "mp-1079207",
+        "spacegroup": 189,
+        "n_atoms": 9
+      },
+      "entry_b": {
+        "id": "mp-1008677",
+        "spacegroup": 225,
+        "n_atoms": 3
+      },
+      "magpie_max_abs_diff": 0.0,
+      "mace_z_max_abs_diff": 0.09094546153905066,
+      "mace_z_l2": 0.45105598020446586,
+      "mace_z_l2_relative": 0.34898248181305014,
+      "mace_cosine_similarity": 0.9613967089744955,
+      "mace_distinguishes": true
+    },
+    {
+      "formula": "ZnS",
+      "entry_a": {
+        "id": "mp-556005",
+        "spacegroup": 156,
+        "n_atoms": 16
+      },
+      "entry_b": {
+        "id": "mp-555410",
+        "spacegroup": 160,
+        "n_atoms": 8
+      },
+      "magpie_max_abs_diff": 0.0,
+      "mace_z_max_abs_diff": 0.00024327836765815347,
+      "mace_z_l2": 0.0009762464544817411,
+      "mace_z_l2_relative": 0.0017397101447465023,
+      "mace_cosine_similarity": 0.9999992880270171,
+      "mace_distinguishes": false
+    }
+  ],
+  "formulas_skipped": [
+    "Li7PS6"
+  ],
+  "conclusion": {
+    "magpie_identical_all_pairs": true,
+    "mace_distinguishes_n_of_m": "15/16",
+    "catatan": "pasangan tak terbedakan = politipe stacking; lingkungan lokal identik dalam cutoff MACE \u2014 limitasi yang diharapkan"
+  }
+}

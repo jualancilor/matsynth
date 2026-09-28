@@ -1,0 +1,17 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Local archive of this project
+matsynth.rar
+
+# Raw Kononova et al. text-mined recipe dumps (~92 MB) - download them, see README "Data"
+data/raw/*.json
+data/raw/*.json.xz
+
+# OS
+.DS_Store
+Thumbs.db

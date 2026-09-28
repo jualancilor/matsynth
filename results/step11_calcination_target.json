@@ -1,0 +1,48 @@
+{
+  "question": "apakah definisi target max(suhu) yang merusak eksperimen?",
+  "n_subset": 4470,
+  "fraction_t_calc_equals_t_max": 0.5635346756152125,
+  "t_calc_distribution": {
+    "median": 1000.0,
+    "p25": 850.0,
+    "p75": 1200.0
+  },
+  "metrics_same_subset": {
+    "t_max": {
+      "mae_constant": 218.94784116331098,
+      "mae_magpie_rf": 139.25243517077223,
+      "oracle_cross_paper": 123.18992478226446,
+      "within_paper": 104.28571428571429
+    },
+    "t_calc": {
+      "mae_constant": 194.9667673378076,
+      "mae_magpie_rf": 136.07909356783694,
+      "oracle_cross_paper": 121.77616785431512,
+      "within_paper": 112.85714285714286
+    }
+  },
+  "paired_oracle_tcalc_vs_tmax": {
+    "mean_diff": -1.413756927949329,
+    "wilcoxon_p": 0.012246442288833145,
+    "bootstrap_ci95": [
+      -6.672038301662708,
+      3.913674039984156
+    ],
+    "significant": false
+  },
+  "paired_within_paper_tcalc_vs_tmax": {
+    "mean_diff": 8.571428571428571,
+    "wilcoxon_p": 0.5,
+    "bootstrap_ci95": [
+      0.0,
+      21.428571428571427
+    ],
+    "significant": false
+  },
+  "structure_headroom_rf_minus_oracle_c": {
+    "t_max": 16.062510388507775,
+    "t_calc": 14.302925713521816
+  },
+  "verdict": "Noise TERKONFIRMASI di level kalsinasi: mengganti definisi target tidak menolong. Digabung langkah 10 (rute juga tidak menjelaskan), sebaran within-formula adalah noise beneran \u2014 matsynth-suhu mati secara empiris. Hasil negatif bersih.",
+  "catatan": "angka tidak sebanding dgn langkah 9 (subset beda: hanya resep ber-token kalsinasi); perbandingan valid hanya T_max vs T_calc di dalam tabel ini"
+}

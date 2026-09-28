@@ -1,0 +1,43 @@
+{
+  "question": "error oracle 117 \u00b0C isinya apa: polimorf, rute, atau noise?",
+  "part_a_polymorph_label_availability": {
+    "korpus_2019": "field phase tidak ada; mp_id konstan per formula; string target tanpa marker polimorf yang usable (0 formula)",
+    "korpus_2020_n_records": 31782,
+    "korpus_2020_n_phase_filled": 264,
+    "korpus_2020_n_recipes_with_temp": 12939,
+    "formulas_usable_for_polymorph_test": {
+      "NaFeO2": {
+        "\u03b1": {
+          "n": 4,
+          "median_c": 475.0
+        },
+        "o3": {
+          "n": 2,
+          "median_c": 650.0
+        }
+      }
+    },
+    "n_formulas_usable": 1,
+    "conclusion": "pertanyaan 'sebaran suhu nyambung polimorf atau tidak' TIDAK TERJAWAB dari korpus text-mined ini \u2014 label polimorf praktis tidak pernah terekstrak. Butuh data lab."
+  },
+  "part_b_route_decomposition": {
+    "n_recipes_total": 8518,
+    "n_paired_recipes_B1_B2": 3502,
+    "B1_formula_cross_paper_mae": 150.3635565391205,
+    "B2_formula_route_cross_paper_mae": 152.00475442604227,
+    "route_error_reduction_percent": -1.091486477639124,
+    "paired_stats_B2_vs_B1": {
+      "mean_diff": 1.6411978869217578,
+      "wilcoxon_p": 0.5415566010868049,
+      "bootstrap_ci95": [
+        -1.0292163406624795,
+        4.381209487435749
+      ],
+      "significant": false
+    },
+    "B3_within_paper_mae": 120.54,
+    "B3_n": 100
+  },
+  "verdict": "Memfiksasi rute TIDAK memangkas error lintas-lab: sebaran within-formula adalah noise beneran. Jatah struktur hanya ~50 \u00b0C (167->117) dan matsynth-suhu mati secara empiris. Hasil negatif bersih, tetap layak dilaporkan.",
+  "catatan_pembanding": "Angka MAE di sini tidak sebanding dengan langkah 9 (target & subset beda: LOO lintas-paper pada resep multi-recipe, bukan GroupKFold seluruh korpus). Jangan disandingkan lintas-eksperimen."
+}

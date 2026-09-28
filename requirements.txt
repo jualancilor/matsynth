@@ -1,0 +1,9 @@
+# Python 3.12 (venv via uv). Torch build CPU.
+torch
+mace-torch
+pymatgen
+matminer
+scikit-learn
+pandas
+requests
+tqdm

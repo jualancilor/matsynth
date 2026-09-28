@@ -1,0 +1,52 @@
+{
+  "purpose": "floor check untuk menentukan apakah langkah 4-6 bermakna",
+  "diagnostic_a_retrieval_vs_naive_element_heuristic": {
+    "n_paired_queries": 99,
+    "mace_jaccard_mean": 0.34882154882154887,
+    "naive_element_heuristic_jaccard_mean": 0.34959114959114973,
+    "mean_difference_mace_minus_naive": -0.0007696007696007769,
+    "wins_mace": 35,
+    "ties": 27,
+    "wins_naive": 37,
+    "wilcoxon_p": 0.9150327289825779,
+    "bootstrap_ci95_difference": [
+      -0.06676286676286677,
+      0.06616161616161616
+    ],
+    "significant_at_95": false,
+    "fraction_of_gt_precursors_that_are_trivial": 0.9875389408099688,
+    "n_recipes_checked": 107
+  },
+  "diagnostic_b_anion_confound_in_synth_labels": {
+    "crosstab_label_vs_oxygen": {
+      "has_O_and_positive": 1,
+      "has_O_and_negative": 16,
+      "no_O_and_positive": 18,
+      "no_O_and_negative": 2
+    },
+    "oxygen_rule_accuracy_whole_set": 0.918918918918919,
+    "per_family": {
+      "AB6C7": {
+        "n": 8,
+        "oxygen_rule_accuracy": 0.875,
+        "mace_accuracy": 0.875,
+        "oxygen_rule_matches_or_beats_mace": true
+      },
+      "AB6C8": {
+        "n": 19,
+        "oxygen_rule_accuracy": 0.8947368421052632,
+        "mace_accuracy": 0.5087719298245613,
+        "oxygen_rule_matches_or_beats_mace": true
+      },
+      "ABC5D6": {
+        "n": 10,
+        "oxygen_rule_accuracy": 1.0,
+        "mace_accuracy": 1.0,
+        "oxygen_rule_matches_or_beats_mace": true
+      }
+    },
+    "confound_present": true,
+    "interpretation": "Positif (kurasi literatur) hampir semuanya sulfida/selenida; negatif (OQMD hipotetis) hampir semuanya oksida. Aturan satu-bit 'ada O -> negatif' menyamai/mengalahkan MACE di SEMUA family. Akurasi head_synth karenanya tidak dapat diklaim sebagai bukti model belajar synthesizability \u2014 ia konsisten dengan model yang hanya mendeteksi anion."
+  },
+  "verdict": "Kedua head gagal floor check. Retrieval tidak berbeda signifikan dari heuristik unsur (p=0.92). head_synth confounded oleh anion. Tidak ada bukti encoder geometrik membantu pada eksperimen sebagaimana dirancang."
+}

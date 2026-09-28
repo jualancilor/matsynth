@@ -1,0 +1,395 @@
+{
+  "encoder": "mace_invariant_last_layer_meanpool",
+  "k": 3,
+  "db_n_items": 99,
+  "db_n_families": 50,
+  "evalA_argyrodite": {
+    "protocol": "query=resep argyrodite Kononova; db=chalcogenida family lain",
+    "per_family": {
+      "AB6C8": {
+        "n_queries": 3,
+        "jaccard_top1_mean": 0.15,
+        "jaccard_best_of_topk_mean": 0.19444444444444442,
+        "exact_match_rate": 0.0
+      }
+    },
+    "per_query": [
+      {
+        "predicted_precursors": [
+          "Gd2O3",
+          "Li2CO3",
+          "TeO2"
+        ],
+        "true_precursor_sets": [
+          [
+            "Li2O",
+            "SiO2"
+          ]
+        ],
+        "jaccard_top1": 0.0,
+        "jaccard_best_of_topk": 0.0,
+        "exact_match_top1": 0.0,
+        "query_material_id": "mp:mp-28549",
+        "query_formula": "Li8SiO6",
+        "neighbor_formulas": [
+          "Li3Gd3(TeO6)2",
+          "NaLiSO4",
+          "Lu2TeO6"
+        ]
+      },
+      {
+        "predicted_precursors": [
+          "Ge",
+          "Sb",
+          "Te"
+        ],
+        "true_precursor_sets": [
+          [
+            "Ag2Te",
+            "GeTe",
+            "Te"
+          ]
+        ],
+        "jaccard_top1": 0.2,
+        "jaccard_best_of_topk": 0.25,
+        "exact_match_top1": 0.0,
+        "query_material_id": "mp:mp-685969",
+        "query_formula": "Ag8GeTe6",
+        "neighbor_formulas": [
+          "Ge2Sb2Te5",
+          "Cr2CuTe4",
+          "Rb2Te3"
+        ]
+      },
+      {
+        "predicted_precursors": [
+          "Ag2S",
+          "GeS2",
+          "ZnS"
+        ],
+        "true_precursor_sets": [
+          [
+            "Ag2S",
+            "SiS2"
+          ]
+        ],
+        "jaccard_top1": 0.25,
+        "jaccard_best_of_topk": 0.3333333333333333,
+        "exact_match_top1": 0.0,
+        "query_material_id": "mp:mp-7614",
+        "query_formula": "Si(Ag4S3)2",
+        "neighbor_formulas": [
+          "ZnAg2GeS4",
+          "GaAgS2",
+          "AgBiS2"
+        ]
+      }
+    ]
+  },
+  "evalB_chalcogenide_lofo": {
+    "protocol": "leave-one-family-out seluruh set chalcogenida",
+    "per_family": {
+      "A2B15C19": {
+        "n_queries": 1,
+        "jaccard_top1_mean": 0.5,
+        "jaccard_best_of_topk_mean": 0.5,
+        "exact_match_rate": 0.0
+      },
+      "A2B2C2D3": {
+        "n_queries": 1,
+        "jaccard_top1_mean": 0.3333333333333333,
+        "jaccard_best_of_topk_mean": 0.3333333333333333,
+        "exact_match_rate": 0.0
+      },
+      "A2B2C2D5": {
+        "n_queries": 1,
+        "jaccard_top1_mean": 0.0,
+        "jaccard_best_of_topk_mean": 0.0,
+        "exact_match_rate": 0.0
+      },
+      "A2B2C5": {
+        "n_queries": 1,
+        "jaccard_top1_mean": 0.2,
+        "jaccard_best_of_topk_mean": 0.25,
+        "exact_match_rate": 0.0
+      },
+      "A2B2C9": {
+        "n_queries": 1,
+        "jaccard_top1_mean": 0.6666666666666666,
+        "jaccard_best_of_topk_mean": 0.6666666666666666,
+        "exact_match_rate": 0.0
+      },
+      "A2B3": {
+        "n_queries": 3,
+        "jaccard_top1_mean": 0.5,
+        "jaccard_best_of_topk_mean": 0.5555555555555555,
+        "exact_match_rate": 0.3333333333333333
+      },
+      "A2B3C3D12": {
+        "n_queries": 2,
+        "jaccard_top1_mean": 0.25,
+        "jaccard_best_of_topk_mean": 0.25,
+        "exact_match_rate": 0.0
+      },
+      "A2B3C3D16": {
+        "n_queries": 1,
+        "jaccard_top1_mean": 0.4,
+        "jaccard_best_of_topk_mean": 0.4,
+        "exact_match_rate": 0.0
+      },
+      "A2B3C8": {
+        "n_queries": 1,
+        "jaccard_top1_mean": 1.0,
+        "jaccard_best_of_topk_mean": 1.0,
+        "exact_match_rate": 1.0
+      },
+      "A2B3C9": {
+        "n_queries": 1,
+        "jaccard_top1_mean": 0.3333333333333333,
+        "jaccard_best_of_topk_mean": 0.3333333333333333,
+        "exact_match_rate": 0.0
+      },
+      "A2B4C11": {
+        "n_queries": 2,
+        "jaccard_top1_mean": 0.3333333333333333,
+        "jaccard_best_of_topk_mean": 0.3333333333333333,
+        "exact_match_rate": 0.0
+      },
+      "A2B6C9": {
+        "n_queries": 1,
+        "jaccard_top1_mean": 0.5,
+        "jaccard_best_of_topk_mean": 0.5,
+        "exact_match_rate": 0.0
+      },
+      "A2B9C11": {
+        "n_queries": 1,
+        "jaccard_top1_mean": 0.5,
+        "jaccard_best_of_topk_mean": 0.5,
+        "exact_match_rate": 0.0
+      },
+      "A3B4C10": {
+        "n_queries": 1,
+        "jaccard_top1_mean": 0.25,
+        "jaccard_best_of_topk_mean": 0.25,
+        "exact_match_rate": 0.0
+      },
+      "A3B4C5D10": {
+        "n_queries": 1,
+        "jaccard_top1_mean": 0.25,
+        "jaccard_best_of_topk_mean": 0.25,
+        "exact_match_rate": 0.0
+      },
+      "A4B12C13": {
+        "n_queries": 1,
+        "jaccard_top1_mean": 1.0,
+        "jaccard_best_of_topk_mean": 1.0,
+        "exact_match_rate": 1.0
+      },
+      "AB": {
+        "n_queries": 1,
+        "jaccard_top1_mean": 1.0,
+        "jaccard_best_of_topk_mean": 1.0,
+        "exact_match_rate": 1.0
+      },
+      "AB2C10D12": {
+        "n_queries": 2,
+        "jaccard_top1_mean": 0.43333333333333335,
+        "jaccard_best_of_topk_mean": 0.43333333333333335,
+        "exact_match_rate": 0.0
+      },
+      "AB2C2D2": {
+        "n_queries": 1,
+        "jaccard_top1_mean": 0.0,
+        "jaccard_best_of_topk_mean": 0.0,
+        "exact_match_rate": 0.0
+      },
+      "AB2C2D6": {
+        "n_queries": 1,
+        "jaccard_top1_mean": 0.2,
+        "jaccard_best_of_topk_mean": 0.2,
+        "exact_match_rate": 0.0
+      },
+      "AB2C2D9": {
+        "n_queries": 2,
+        "jaccard_top1_mean": 0.20833333333333331,
+        "jaccard_best_of_topk_mean": 0.225,
+        "exact_match_rate": 0.0
+      },
+      "AB2C3": {
+        "n_queries": 4,
+        "jaccard_top1_mean": 0.2375,
+        "jaccard_best_of_topk_mean": 0.25,
+        "exact_match_rate": 0.0
+      },
+      "AB2C3D8": {
+        "n_queries": 1,
+        "jaccard_top1_mean": 0.3333333333333333,
+        "jaccard_best_of_topk_mean": 0.3333333333333333,
+        "exact_match_rate": 0.0
+      },
+      "AB2C3D9": {
+        "n_queries": 2,
+        "jaccard_top1_mean": 0.35,
+        "jaccard_best_of_topk_mean": 0.35,
+        "exact_match_rate": 0.0
+      },
+      "AB2C4": {
+        "n_queries": 6,
+        "jaccard_top1_mean": 0.21944444444444444,
+        "jaccard_best_of_topk_mean": 0.31111111111111106,
+        "exact_match_rate": 0.0
+      },
+      "AB2C5": {
+        "n_queries": 2,
+        "jaccard_top1_mean": 0.3333333333333333,
+        "jaccard_best_of_topk_mean": 0.3333333333333333,
+        "exact_match_rate": 0.0
+      },
+      "AB2C6": {
+        "n_queries": 6,
+        "jaccard_top1_mean": 0.18055555555555555,
+        "jaccard_best_of_topk_mean": 0.3611111111111111,
+        "exact_match_rate": 0.0
+      },
+      "AB3C4": {
+        "n_queries": 1,
+        "jaccard_top1_mean": 0.0,
+        "jaccard_best_of_topk_mean": 0.4,
+        "exact_match_rate": 0.0
+      },
+      "AB3C5": {
+        "n_queries": 1,
+        "jaccard_top1_mean": 1.0,
+        "jaccard_best_of_topk_mean": 1.0,
+        "exact_match_rate": 1.0
+      },
+      "AB3C6": {
+        "n_queries": 2,
+        "jaccard_top1_mean": 0.625,
+        "jaccard_best_of_topk_mean": 0.6666666666666666,
+        "exact_match_rate": 0.5
+      },
+      "AB4C4": {
+        "n_queries": 1,
+        "jaccard_top1_mean": 0.6666666666666666,
+        "jaccard_best_of_topk_mean": 0.6666666666666666,
+        "exact_match_rate": 0.0
+      },
+      "AB4C8": {
+        "n_queries": 2,
+        "jaccard_top1_mean": 0.5,
+        "jaccard_best_of_topk_mean": 0.5,
+        "exact_match_rate": 0.0
+      },
+      "AB4C9": {
+        "n_queries": 1,
+        "jaccard_top1_mean": 0.3333333333333333,
+        "jaccard_best_of_topk_mean": 0.3333333333333333,
+        "exact_match_rate": 0.0
+      },
+      "AB6C13": {
+        "n_queries": 3,
+        "jaccard_top1_mean": 0.3333333333333333,
+        "jaccard_best_of_topk_mean": 0.3333333333333333,
+        "exact_match_rate": 0.0
+      },
+      "AB6C7": {
+        "n_queries": 1,
+        "jaccard_top1_mean": 0.5,
+        "jaccard_best_of_topk_mean": 0.5,
+        "exact_match_rate": 0.0
+      },
+      "AB6C8": {
+        "n_queries": 2,
+        "jaccard_top1_mean": 0.225,
+        "jaccard_best_of_topk_mean": 0.29166666666666663,
+        "exact_match_rate": 0.0
+      },
+      "ABC2": {
+        "n_queries": 10,
+        "jaccard_top1_mean": 0.3933333333333333,
+        "jaccard_best_of_topk_mean": 0.43,
+        "exact_match_rate": 0.2
+      },
+      "ABC2D4": {
+        "n_queries": 4,
+        "jaccard_top1_mean": 0.35,
+        "jaccard_best_of_topk_mean": 0.35,
+        "exact_match_rate": 0.0
+      },
+      "ABC2D5": {
+        "n_queries": 1,
+        "jaccard_top1_mean": 0.2,
+        "jaccard_best_of_topk_mean": 0.2,
+        "exact_match_rate": 0.0
+      },
+      "ABC2D6": {
+        "n_queries": 4,
+        "jaccard_top1_mean": 0.25,
+        "jaccard_best_of_topk_mean": 0.4041666666666667,
+        "exact_match_rate": 0.0
+      },
+      "ABC2D8": {
+        "n_queries": 2,
+        "jaccard_top1_mean": 0.5,
+        "jaccard_best_of_topk_mean": 0.5,
+        "exact_match_rate": 0.0
+      },
+      "ABC2D9": {
+        "n_queries": 1,
+        "jaccard_top1_mean": 0.4,
+        "jaccard_best_of_topk_mean": 0.5,
+        "exact_match_rate": 0.0
+      },
+      "ABC3": {
+        "n_queries": 4,
+        "jaccard_top1_mean": 0.49999999999999994,
+        "jaccard_best_of_topk_mean": 0.6458333333333334,
+        "exact_match_rate": 0.25
+      },
+      "ABC4D12": {
+        "n_queries": 1,
+        "jaccard_top1_mean": 0.5,
+        "jaccard_best_of_topk_mean": 0.5,
+        "exact_match_rate": 0.0
+      },
+      "ABC5": {
+        "n_queries": 1,
+        "jaccard_top1_mean": 0.0,
+        "jaccard_best_of_topk_mean": 0.0,
+        "exact_match_rate": 0.0
+      },
+      "ABCD": {
+        "n_queries": 2,
+        "jaccard_top1_mean": 0.0,
+        "jaccard_best_of_topk_mean": 0.1,
+        "exact_match_rate": 0.0
+      },
+      "ABCD2": {
+        "n_queries": 2,
+        "jaccard_top1_mean": 0.1,
+        "jaccard_best_of_topk_mean": 0.125,
+        "exact_match_rate": 0.0
+      },
+      "ABCD4": {
+        "n_queries": 2,
+        "jaccard_top1_mean": 0.25,
+        "jaccard_best_of_topk_mean": 0.25,
+        "exact_match_rate": 0.0
+      },
+      "ABCD5": {
+        "n_queries": 1,
+        "jaccard_top1_mean": 0.6666666666666666,
+        "jaccard_best_of_topk_mean": 0.6666666666666666,
+        "exact_match_rate": 0.0
+      },
+      "ABCD6": {
+        "n_queries": 2,
+        "jaccard_top1_mean": 0.2,
+        "jaccard_best_of_topk_mean": 0.5,
+        "exact_match_rate": 0.0
+      }
+    },
+    "jaccard_top1_micro_mean": 0.34882154882154887
+  }
+}

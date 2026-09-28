@@ -1,0 +1,78 @@
+{
+  "tolerance": 0.0001,
+  "n_structures": 10,
+  "worst_max_abs_diff": 1.942890293094024e-16,
+  "all_pass": true,
+  "per_structure": [
+    {
+      "material_id": "oqmd:4958208",
+      "formula": "Na8SnO6",
+      "n_atoms": 15,
+      "max_abs_diff": 9.020562075079397e-17,
+      "pass": true
+    },
+    {
+      "material_id": "oqmd:5733492",
+      "formula": "Si(Ag4Se3)2",
+      "n_atoms": 60,
+      "max_abs_diff": 9.71445146547012e-17,
+      "pass": true
+    },
+    {
+      "material_id": "oqmd:5733475",
+      "formula": "Ag7PO6",
+      "n_atoms": 56,
+      "max_abs_diff": 1.6653345369377348e-16,
+      "pass": true
+    },
+    {
+      "material_id": "oqmd:5750578",
+      "formula": "Na7PO6",
+      "n_atoms": 56,
+      "max_abs_diff": 1.942890293094024e-16,
+      "pass": true
+    },
+    {
+      "material_id": "oqmd:5789402",
+      "formula": "Ag6PBrO5",
+      "n_atoms": 13,
+      "max_abs_diff": 7.632783294297951e-17,
+      "pass": true
+    },
+    {
+      "material_id": "mp:mp-5546",
+      "formula": "Cu8GeS6",
+      "n_atoms": 30,
+      "max_abs_diff": 1.5265566588595902e-16,
+      "pass": true
+    },
+    {
+      "material_id": "oqmd:5733490",
+      "formula": "Si(Ag4O3)2",
+      "n_atoms": 60,
+      "max_abs_diff": 1.3877787807814457e-16,
+      "pass": true
+    },
+    {
+      "material_id": "mp:mp-1196216",
+      "formula": "Cu7PS6",
+      "n_atoms": 56,
+      "max_abs_diff": 8.326672684688674e-17,
+      "pass": true
+    },
+    {
+      "material_id": "mp:mp-15645",
+      "formula": "Ag8SnS6",
+      "n_atoms": 60,
+      "max_abs_diff": 6.938893903907228e-17,
+      "pass": true
+    },
+    {
+      "material_id": "oqmd:4958808",
+      "formula": "Na8GeO6",
+      "n_atoms": 30,
+      "max_abs_diff": 1.3877787807814457e-16,
+      "pass": true
+    }
+  ]
+}

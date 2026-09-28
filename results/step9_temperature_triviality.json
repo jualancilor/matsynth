@@ -1,0 +1,76 @@
+{
+  "question": "apakah suhu sintesis punya variasi bermakna atau trivial?",
+  "n_recipes": 8518,
+  "temperature_distribution_celsius": {
+    "mean": 1065.557231744541,
+    "median": 1100.0,
+    "std": 315.15075360700564,
+    "min": 50.0,
+    "max": 2300.0,
+    "percentiles": {
+      "p5": 549.85,
+      "p25": 850.0,
+      "p50": 1100.0,
+      "p75": 1300.0,
+      "p95": 1520.7499999999982
+    },
+    "iqr": 450.0
+  },
+  "protocol": "GroupKFold by family, k=5, assert no family leakage",
+  "floor1_constant_prediction": {
+    "mae_median_train": 250.1327952571026,
+    "mae_mean_train": 251.18481421792265,
+    "note": "median adalah konstanta optimal untuk MAE, bukan rata-rata"
+  },
+  "floor2_intrinsic_noise": {
+    "n_formulas_with_multiple_recipes": 1028,
+    "n_recipes_covered": 4996,
+    "oracle_per_formula_median_mae": 116.88458767013611,
+    "mean_within_formula_std": 147.62572480885348,
+    "median_within_formula_std": 106.06601717798213,
+    "example_spreads": {
+      "LiFePO4": {
+        "n": 97,
+        "min": 60.0,
+        "max": 1250.0,
+        "std": 177.54656604166493
+      },
+      "BaTiO3": {
+        "n": 86,
+        "min": 75.0,
+        "max": 1500.0,
+        "std": 256.3178952934703
+      },
+      "LiMn2O4": {
+        "n": 85,
+        "min": 300.0,
+        "max": 1000.0,
+        "std": 107.86487600461143
+      },
+      "FeBiO3": {
+        "n": 75,
+        "min": 100.0,
+        "max": 1250.0,
+        "std": 151.01637067454547
+      },
+      "CaTi4(CuO4)3": {
+        "n": 70,
+        "min": 600.0,
+        "max": 1150.0,
+        "std": 100.66518213568155
+      }
+    }
+  },
+  "floor3_magpie_randomforest": {
+    "mae": 166.62204182167372,
+    "error_reduction_vs_constant_percent": 33.386567063143865,
+    "mean_difference_rf_minus_constant": -83.51075343542887,
+    "wilcoxon_p": 0.0,
+    "bootstrap_ci95_difference": [
+      -87.24843101021425,
+      -79.89825653192366
+    ],
+    "significantly_better": true
+  },
+  "verdict": "ADA SINYAL: RF mengalahkan floor konstan secara signifikan"
+}

@@ -1,0 +1,239 @@
+{
+  "n_items": 37,
+  "embedding_dim": 128,
+  "concat_last_two": false,
+  "model_size": "small",
+  "per_family_label_counts": {
+    "AB6C7|label=0": 4,
+    "AB6C7|label=1": 4,
+    "AB6C8|label=0": 7,
+    "AB6C8|label=1": 12,
+    "ABC5D6|label=0": 7,
+    "ABC5D6|label=1": 3
+  },
+  "items": {
+    "mp:mp-685969": {
+      "formula": "Ag8GeTe6",
+      "family": "AB6C8",
+      "label": 1,
+      "source": "kononova"
+    },
+    "mp:mp-28549": {
+      "formula": "Li8SiO6",
+      "family": "AB6C8",
+      "label": 1,
+      "source": "kononova"
+    },
+    "mp:mp-7614": {
+      "formula": "Si(Ag4S3)2",
+      "family": "AB6C8",
+      "label": 1,
+      "source": "kononova"
+    },
+    "mp:mp-985592": {
+      "formula": "Li6PS5Cl",
+      "family": "ABC5D6",
+      "label": 1,
+      "source": "curated"
+    },
+    "mp:mp-985591": {
+      "formula": "Li6PS5Br",
+      "family": "ABC5D6",
+      "label": 1,
+      "source": "curated"
+    },
+    "mp:mp-985582": {
+      "formula": "Li6PS5I",
+      "family": "ABC5D6",
+      "label": 1,
+      "source": "curated"
+    },
+    "mp:mp-1211324": {
+      "formula": "Li7PS6",
+      "family": "AB6C7",
+      "label": 1,
+      "source": "curated"
+    },
+    "mp:mp-1211446": {
+      "formula": "Li7PSe6",
+      "family": "AB6C7",
+      "label": 1,
+      "source": "curated"
+    },
+    "mp:mp-9770": {
+      "formula": "Ag8GeS6",
+      "family": "AB6C8",
+      "label": 1,
+      "source": "curated"
+    },
+    "mp:mp-15645": {
+      "formula": "Ag8SnS6",
+      "family": "AB6C8",
+      "label": 1,
+      "source": "curated"
+    },
+    "mp:mp-18474": {
+      "formula": "Ag8GeSe6",
+      "family": "AB6C8",
+      "label": 1,
+      "source": "curated"
+    },
+    "mp:mp-17984": {
+      "formula": "Ag8SnSe6",
+      "family": "AB6C8",
+      "label": 1,
+      "source": "curated"
+    },
+    "oqmd:5733492": {
+      "formula": "Si(Ag4Se3)2",
+      "family": "AB6C8",
+      "label": 1,
+      "source": "curated"
+    },
+    "mp:mp-1196216": {
+      "formula": "Cu7PS6",
+      "family": "AB6C7",
+      "label": 1,
+      "source": "curated"
+    },
+    "mp:mp-1197032": {
+      "formula": "Ag7PS6",
+      "family": "AB6C7",
+      "label": 1,
+      "source": "curated"
+    },
+    "mp:mp-5546": {
+      "formula": "Cu8GeS6",
+      "family": "AB6C8",
+      "label": 1,
+      "source": "curated"
+    },
+    "mp:mp-1225860": {
+      "formula": "Cu8GeSe6",
+      "family": "AB6C8",
+      "label": 1,
+      "source": "curated"
+    },
+    "mp:mp-13872": {
+      "formula": "Cu8SiS6",
+      "family": "AB6C8",
+      "label": 1,
+      "source": "curated"
+    },
+    "mp:mp-10428": {
+      "formula": "Cu8SiSe6",
+      "family": "AB6C8",
+      "label": 1,
+      "source": "curated"
+    },
+    "oqmd:5789402": {
+      "formula": "Ag6PBrO5",
+      "family": "ABC5D6",
+      "label": 0,
+      "source": "oqmd_hypothetical"
+    },
+    "oqmd:5733475": {
+      "formula": "Ag7PO6",
+      "family": "AB6C7",
+      "label": 0,
+      "source": "oqmd_hypothetical"
+    },
+    "oqmd:5733490": {
+      "formula": "Si(Ag4O3)2",
+      "family": "AB6C8",
+      "label": 0,
+      "source": "oqmd_hypothetical"
+    },
+    "oqmd:5637873": {
+      "formula": "Ag7SbS6",
+      "family": "AB6C7",
+      "label": 0,
+      "source": "oqmd_hypothetical"
+    },
+    "oqmd:5789158": {
+      "formula": "Li6AsBrO5",
+      "family": "ABC5D6",
+      "label": 0,
+      "source": "oqmd_hypothetical"
+    },
+    "oqmd:5789156": {
+      "formula": "Li6AsClO5",
+      "family": "ABC5D6",
+      "label": 0,
+      "source": "oqmd_hypothetical"
+    },
+    "oqmd:5789566": {
+      "formula": "Li6PIO5",
+      "family": "ABC5D6",
+      "label": 0,
+      "source": "oqmd_hypothetical"
+    },
+    "oqmd:5462051": {
+      "formula": "Li7SbO6",
+      "family": "AB6C7",
+      "label": 0,
+      "source": "oqmd_hypothetical"
+    },
+    "oqmd:5733315": {
+      "formula": "Li8GeO6",
+      "family": "AB6C8",
+      "label": 0,
+      "source": "oqmd_hypothetical"
+    },
+    "oqmd:5461983": {
+      "formula": "Li8SnO6",
+      "family": "AB6C8",
+      "label": 0,
+      "source": "oqmd_hypothetical"
+    },
+    "oqmd:5789411": {
+      "formula": "Na6PBrO5",
+      "family": "ABC5D6",
+      "label": 0,
+      "source": "oqmd_hypothetical"
+    },
+    "oqmd:5790099": {
+      "formula": "Na6PClO5",
+      "family": "ABC5D6",
+      "label": 0,
+      "source": "oqmd_hypothetical"
+    },
+    "oqmd:5789495": {
+      "formula": "Na6PIO5",
+      "family": "ABC5D6",
+      "label": 0,
+      "source": "oqmd_hypothetical"
+    },
+    "oqmd:5750578": {
+      "formula": "Na7PO6",
+      "family": "AB6C7",
+      "label": 0,
+      "source": "oqmd_hypothetical"
+    },
+    "oqmd:4958808": {
+      "formula": "Na8GeO6",
+      "family": "AB6C8",
+      "label": 0,
+      "source": "oqmd_hypothetical"
+    },
+    "oqmd:4958775": {
+      "formula": "Na8SiO6",
+      "family": "AB6C8",
+      "label": 0,
+      "source": "oqmd_hypothetical"
+    },
+    "oqmd:4958208": {
+      "formula": "Na8SnO6",
+      "family": "AB6C8",
+      "label": 0,
+      "source": "oqmd_hypothetical"
+    },
+    "oqmd:6171177": {
+      "formula": "Na8SiS6",
+      "family": "AB6C8",
+      "label": 0,
+      "source": "oqmd_hypothetical"
+    }
+  },
+  "embeddings_path": "C:\\Users\\heven\\Documents\\Kuliah\\smstr 6\\aiml\\matsynth\\data\\processed\\embeddings_argyrodite.pt"
+}

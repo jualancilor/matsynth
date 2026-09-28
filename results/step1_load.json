@@ -1,0 +1,37 @@
+{
+  "n_raw": 19488,
+  "n_valid_normalized": 6034,
+  "drops": {
+    "target_tak_ternormalisasi": 9105,
+    "precursor_tak_ternormalisasi": 956,
+    "duplikat_target_precursor": 3393
+  },
+  "n_argyrodite_records": 3,
+  "argyrodite_formulas": [
+    "Ag8GeTe6",
+    "Li8SiO6",
+    "Si(Ag4S3)2"
+  ],
+  "argyrodite_families": [
+    "AB6C8"
+  ],
+  "resolved": {
+    "Ag8GeTe6": {
+      "material_id": "mp:mp-685969",
+      "n_sites": 15,
+      "provider": "mp"
+    },
+    "Li8SiO6": {
+      "material_id": "mp:mp-28549",
+      "n_sites": 30,
+      "provider": "mp"
+    },
+    "Si(Ag4S3)2": {
+      "material_id": "mp:mp-7614",
+      "n_sites": 60,
+      "provider": "mp"
+    }
+  },
+  "unresolved_dropped": [],
+  "note": "resolusi korpus penuh ditunda; scope tahap ini = keluarga argyrodite"
+}
